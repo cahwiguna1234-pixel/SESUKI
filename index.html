@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HBD Sesuki</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Video background (hanya tampil di tab ucapan). Taruh file bernama video.mp4 di folder yang sama -->
+  <video id="bgVideo" src="video.mp4" loop playsinline preload="auto"></video>
+
+  <canvas id="lightning"></canvas>
+
+  <main class="card">
+    <!-- TAB 1 -->
+    <section class="tab active" id="tab1">
+      <p class="tag">COBA PENCET SUKI</p>
+      <h1 class="glitch">SESUKI</h1>
+      <button class="btn" id="startBtn">pencet suki!!</button>
+    </section>
+
+    <!-- TAB 2 -->
+    <section class="tab" id="tab2">
+      <h2>Naruto atau Sasuki?</h2>
+      <p class="warn" id="warn">PILIH DENGAN IQ+KETENANGAN</p>
+      <div class="choices">
+        <button class="btn alt" id="narutoBtn">Naruto</button>
+        <button class="btn" id="sasukiBtn">Sasuki</button>
+      </div>
+    </section>
+
+    <!-- TAB 3 -->
+    <section class="tab" id="tab3">
+      <h2 class="big">HBD SESUKI, untuk umur ke-24 🥂</h2>
+      <p>Semoga makin chill, makin lancar hidupnya, dan makin banyak hal baik yang datang.</p>
+      <p>Kata sopi lu orang yg paling suki yg pernah ditemukan dibumi, Terus Kata Bhyon lu orang yang paling ganteng</p>
+      <p>Enjoy your day, bro. Welcome to 24</p>
+      <div class="controls">
+        <button class="btn small" id="videoSoundBtn">🔊 Suara video: nyala</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
